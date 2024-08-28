@@ -24,3 +24,12 @@ I explored the data to gain valuable insight into information such as
 
 ## Classification task
 Logistic regression and Random Forest were considered for this project and the data was split into 70-30 for training and testing data respectively. The features were scaled for the logistic regression algorithm. The models were evaluated using metrics like accuracy score, f1 score, precision and recall score, and confusion matrix. 
+
+## Outcome summary
+## With Logistic Regression: 
+SMOTE and ADASYN both improved the model’s performance on the minority class (Class 1), with ADASYN showing a more significant improvement in recall at the cost of accuracy. SMOTE appears to offer a more balanced improvement across all classes
+
+## With RandomForest Classifer:
+The model struggles with Class 1 due to class imbalance, resulting in poor recall and F1 scores for this class.
+SMOTE balances the classes, improving recall and F1 scores for Class 1 with a slight trade-off in accuracy.
+ADASYN further enhanced recall and F1 scores for Class 1, slightly improving overall accuracy.
