@@ -23,7 +23,7 @@ I explored the data to gain valuable insight into information such as
 •   What is the admission grade and previous first-year grade distribution and what insight can we get concerning the performance of a student? 
 
 ## Classification task
-Logistic regression and Random Forest were considered for this project and the data was split into 70-30 for training and testing data respectively. The features were scaled for the logistic regression algorithm. The models were evaluated using metrics like accuracy score, f1 score, precision and recall score, and confusion matrix. 
+Logistic regression and Random Forest were considered for this project and the data was split into 90-10 for training and testing data respectively with a random state of 42. The features were scaled for the logistic regression algorithm. The models were evaluated using metrics like accuracy score, f1 score, precision and recall score, and confusion matrix. 
 
 ## Outcome summary
 ## With Logistic Regression: 
